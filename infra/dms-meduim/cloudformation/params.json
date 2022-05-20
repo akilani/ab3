@@ -1,0 +1,13 @@
+[
+    "Encryption=true",
+    "FileSystemName=tmed",
+    "PerformanceMode=generalPurpose",
+    "ThroughputMode=bursting",
+    "KmsKeyId=None",
+    "VpcId=vpc-vpc-0c4c6819abffc24d0",
+    "MountTarget1Subnet=subnet-06357beb054a74d50",
+    "MountTarget2Subnet=subnet-01837519e47b18a86",
+    "MountTarget3Subnet=None",
+    "FileSharePort=2049",
+    "OriginSecurityGroup=sg-tmed-orgin"
+]
