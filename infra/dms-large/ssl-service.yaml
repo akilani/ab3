@@ -4,7 +4,7 @@ metadata:
   annotations:
     kompose.cmd: ./kompose --file docker-compose.yaml convert
     kompose.version: 1.26.1 (a9d05d509)
-    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: arn:aws:acm:us-west-1:658861819646:certificate/ab80fca5-f242-48fe-b7b2-f07984d87229
+    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: $CERT
     service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
   creationTimestamp: null
   labels:

@@ -33,7 +33,7 @@ spec:
             - name: DATABASE_PASSWORD
               value: GH9wVgrKAMFh4cvVlvXn
             - name: DATABASE_URL
-              value: jdbc:postgresql://tmed.cluster-cwu7wav0xdw6.us-west-1.rds.amazonaws.com:5432/tmed
+              value: jdbc:postgresql://$RDSEND:5432/tmed
             - name: DATABASE_USER
               value: teedy_db_user
             - name: DOCS_ADMIN_EMAIL_INIT
@@ -42,7 +42,7 @@ spec:
               value: $2a$05$PcMNUbJvsk7QHFSfEIDaIOjk1VI9/E7IPjTKx.jkjPxkx2EOKSoPS
             - name: DOCS_BASE_URL
               value: https://docs.example.com
-          image: 658861819646.dkr.ecr.us-east-1.amazonaws.com/akilaniiecr:mydocs 
+          image:  akilani/docs:1.0
           name: teedy-server
           ports:
             - containerPort: 8080
